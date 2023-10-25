@@ -6,7 +6,7 @@ class FavoritesPage extends StatefulWidget {
   static const routeName = 'favorites_page';
   static const fullPath = '/$routeName';
 
-  const FavoritesPage({super.key});
+  const FavoritesPage({Key? key}) : super(key: key);
 
   @override
   State<FavoritesPage> createState() => _FavoritesPageState();

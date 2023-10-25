@@ -1,0 +1,11 @@
+settings:
+  enable_draft_pr_reviews: false
+  additional_branches_to_be_reviewed:
+    - "master"
+    - "feature/test_ui"
+  disable_high_level_summary: false
+  ignored_pr_titles: "WIP"
+  review_language: "en"
+  disable_review_status: false
+  collapse_walkthrough_comment: true
+  disable_review: false

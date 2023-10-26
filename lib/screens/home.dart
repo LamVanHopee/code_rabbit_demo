@@ -45,7 +45,7 @@ class ItemTile extends StatelessWidget {
     final favoritesList = context.watch<Favorites>();
 
     return Padding(
-      padding: EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(8.0),
       child: ListTile(
         leading: Row(
           mainAxisSize: MainAxisSize.min,
@@ -58,7 +58,12 @@ class ItemTile extends StatelessWidget {
             ),
             CircleAvatar(
               backgroundColor: Colors.primaries[itemNo % Colors.primaries.length + 2],
-            )
+            ),
+            Column(
+              children: [
+
+              ],
+            ),
           ],
         ),
         title: Text(
